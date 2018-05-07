@@ -17,9 +17,9 @@ The package `nu_gpa` can be installed via pip :
 Here, letter grades and grade points are considered as,
 
 | Letter grade | Grade point |
-|-----|-----|
+| ----- | ----- |
 | A+ | 4.00 |
-| A |3.75 |
+| A | 3.75 |
 | A- | 3.50 |
 | B+ | 3.25 |
 | B | 3.00 |
