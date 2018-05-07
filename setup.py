@@ -12,7 +12,7 @@ with codecs.open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='nu_gpa',
-    version='1.0.0',
+    version='1.0.1',
     description='A command line package to calculate GPA of semester results specially for professional courses like CSE, ECE, BBA etc. offered by National University, Bangladesh.',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -32,7 +32,12 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='gpa semester result nu nubd cse ece bba course education',
-    packages=find_packages()
+    packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'nu_gpa=nu_gpa:main',
+        ],
+    }
 )
 
 
