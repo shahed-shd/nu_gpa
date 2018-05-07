@@ -14,9 +14,10 @@ setup(
     name='nu_gpa',
     version='1.0.1',
     description='A command line package to calculate GPA of semester results specially for professional courses like CSE, ECE, BBA etc. offered by National University, Bangladesh.',
+    description_content_type='text/markdown',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/shahed-shd/nu_cse',
+    url='https://github.com/shahed-shd/nu_gpa',
     author='Md. Shahedul Islam Shahed',
     author_email='shahed.shd777@gmail.com',
     classifiers=[
