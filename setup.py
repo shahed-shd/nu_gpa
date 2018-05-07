@@ -6,14 +6,14 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
-with codecs.open(path.join(here, , 'README.md'), encoding='utf-8') as f:
+with codecs.open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 
 setup(
     name='nu_gpa',
     version='1.0.0',
-    description='A package to calculate GPA of semester results specially for professional courses like CSE, ECE, BBA etc. offered by National University, Bangladesh.',
+    description='A command line package to calculate GPA of semester results specially for professional courses like CSE, ECE, BBA etc. offered by National University, Bangladesh.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/shahed-shd/nu_cse',
