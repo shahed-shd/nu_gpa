@@ -6,10 +6,8 @@ A command line package to calculate GPA of semester results specially for profes
 
 ## Installation
 The package `nu_gpa` can be installed via pip :
-`pip install nu_gpa`
 
-or via pip3:
-`pip3 install nu_gpa`
+`pip install nu_gpa`
 
 ---
 
